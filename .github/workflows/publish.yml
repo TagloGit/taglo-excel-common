@@ -42,4 +42,4 @@ jobs:
         run: Get-ChildItem nupkg
 
       - name: Push to GitHub Packages
-        run: dotnet nuget push "nupkg/*.nupkg" --api-key ${{ secrets.GITHUB_TOKEN }} --source "https://nuget.pkg.github.com/TagloGit/index.json"
+        run: dotnet nuget push "nupkg/Taglo.Excel.Common.${{ steps.version.outputs.VERSION }}.nupkg" --api-key ${{ secrets.GITHUB_TOKEN }} --source "https://nuget.pkg.github.com/TagloGit/index.json"
