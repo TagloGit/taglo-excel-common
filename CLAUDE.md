@@ -4,17 +4,18 @@ Shared .NET library for Taglo Excel add-ins
 
 ## Repo purpose
 
-TODO: Describe what this repo contains.
+`Taglo.Excel.Common` — shared ExcelDNA infrastructure extracted from Formula Boss. Provides Win32 interop for window management, cell/window positioning, file-based logging, and GitHub release update checking. Published as a NuGet package to GitHub Packages for consumption by Formula Boss, Lambda Boss, and future Taglo Excel add-ins.
 
 ## Tech stack
 
-TODO: List languages, frameworks, and key dependencies.
+- C# 10 / .NET 6 (`net6.0-windows`)
+- ExcelDna.Integration (compile-time reference)
+- xUnit for testing
 
 ## Build & test
 
-TODO: Add build and test commands, e.g.:
-- `dotnet build` — build solution
-- `dotnet test` — run tests
+- `dotnet build taglo-excel-common.sln` — build solution
+- `dotnet test taglo-excel-common.sln` — run tests
 
 ## Conventions
 
