@@ -8,6 +8,7 @@
     <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings>
 
     <!-- NuGet package metadata -->
+    <IsPackable>true</IsPackable>
     <PackageId>Taglo.Excel.Common</PackageId>
     <Version>0.1.0</Version>
     <Authors>Taglo</Authors>
