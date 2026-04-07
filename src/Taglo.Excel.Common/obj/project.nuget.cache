@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hasTgqUVY4I=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\trjac\\repositories\\taglo-excel-common\\src\\Taglo.Excel.Common\\Taglo.Excel.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\trjac\\.nuget\\packages\\exceldna.integration\\1.9.0\\exceldna.integration.1.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}

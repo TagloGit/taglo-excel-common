@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Taglo.Excel.Common</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings>
+
+    <!-- NuGet package metadata -->
+    <PackageId>Taglo.Excel.Common</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Taglo</Authors>
+    <Description>Shared ExcelDNA infrastructure for Taglo Excel add-ins</Description>
+    <RepositoryUrl>https://github.com/TagloGit/taglo-excel-common</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Taglo.Excel.Common.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExcelDna.Integration" Version="1.*" />
+  </ItemGroup>
+
+</Project>
